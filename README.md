@@ -3,6 +3,10 @@
 This repository containst the submission for the assignment for week 4 of Getting and Cleaning Data Coursera course
 
 
+# Objective
+
+The code combined training dataset and test dataset, and extracted partial variables to create another dataset with the averages of each variable for each activity.
+
 # Code
 
 The code combined training dataset and test dataset, and extracted partial variables to create another dataset with the averages of each variable for each activity
