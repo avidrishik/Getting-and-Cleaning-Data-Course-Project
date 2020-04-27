@@ -53,18 +53,18 @@ X_bind
 
 #2.Extracts only the measurements on the mean and standard deviation for each measurement. 
 
-selected_var = variable_names[grep("mean\\(\\)|std\\(\\)",variable_names[,2]),]
-ls(selected_var)
+sel_vars = variable_names[grep("mean\\(\\)|std\\(\\)",variable_names[,2]),]
+ls(sel_vars)
 ?grep
-a=selected_var[,1]
+a=sel_vars[,1]
 a
-X_total = X_bind[,selected_var[,1]]
+X_total = X_bind[,sel_vars[,1]]
 
 
 # name columns
 colnames(X_bind)
-selected_var[,2]
-colnames(X_bind)   = selected_var[,2]
+sel_vars[,2]
+colnames(X_bind)   = sel_vars[,2]
 colnames(Y_bind)   = "activity"
 colnames(sub_bind) = "subject"
 nrow(Y_bind)
