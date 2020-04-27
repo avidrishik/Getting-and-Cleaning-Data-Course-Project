@@ -21,8 +21,10 @@ STANDING
 LAYING
 
 <h5>Measurements of the tidy dataset</h5>
--1."activitylabel"
--2."subject"
+*1."activitylabel"
+
+*2."subject"
+
 -3."tBodyAcc-mean()-X"
 -4."tBodyAcc-mean()-Y"
 -5."tBodyAcc-mean()-Z"
