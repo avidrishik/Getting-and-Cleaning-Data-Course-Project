@@ -1,10 +1,11 @@
-<h1>Title: "Getting-and-Cleaning-Data-Week-4-Assignment"</h2>
+<h1>CodeBook</h2>
 output: "tidydate.txt"
 
-<h2>CodeBook</h2>
+<h2></h2>
 The final summary tidy dataset "tidydata.txt" contains the average of each variable for each activity and each subject from the provided dataset
 
 ROWS=180
+
 COLUMNS=68
 
 </h2>Description</h2>
@@ -27,7 +28,7 @@ STANDING
 
 LAYING
 
-<h5>Measurements of the tidy dataset</h5>
+<h2>Measurements of the tidy dataset</h2>
 
 
 1."activitylabel"
