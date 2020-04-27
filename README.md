@@ -16,3 +16,9 @@ The code combined training dataset and test dataset, and extracted partial varia
 4. Appropriately labels the data set with descriptive activity names.
 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+# New dataset: tidydata.txt
+
+The new generated dataset contained variables calculated based on the mean and standard deviation. Each row of the dataset is an average of each activity type for all subjects.
+
+The code was written based on the instruction of this assignment
