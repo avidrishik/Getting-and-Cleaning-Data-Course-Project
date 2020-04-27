@@ -7,20 +7,29 @@ The final summary tidy dataset "tidydata.txt" contains the average of each varia
 ROWS=180
 COLUMNS=68
 
-</h3>Description</h3>
+</h2>Description</h2>
 mean(): Mean value
+
 std(): Standard deviation
 
-<h4>The data were averaged based on subject and activity group</h4>
+<h2>The data were averaged based on subject and activity group</h2>
 Subject column is from 1 to 30. Activity column has 6 types as listed below.
+
 WALKING
+
 WALKING_UPSTAIRS
+
 WALKING_DOWNSTAIRS
+
 SITTING
+
 STANDING
+
 LAYING
 
 <h5>Measurements of the tidy dataset</h5>
+
+
 1."activitylabel"
 
 2."subject"
